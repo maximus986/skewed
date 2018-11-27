@@ -92,3 +92,9 @@ a {
 .bg-warning {
     background: #F7CC4B !important;
 }
+
+.about h2 {
+    color: #222;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+}

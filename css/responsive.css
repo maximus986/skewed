@@ -68,17 +68,21 @@
     .navbar-nav li a {
         padding: 8px 15px !important;
     }
-    
+
     .hello {
         padding: 300px 0;
     }
-    
+
     .hello:after {
         height: 150px;
     }
-    
+
     .custom-padding {
         padding: 100px 0 !important;
+    }
+
+    .about h2 {
+        font-size: 60px;
     }
 }
 
