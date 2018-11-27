@@ -84,6 +84,22 @@
     .about h2 {
         font-size: 60px;
     }
+
+    .section-title {
+        font-size: 60px;
+    }
+
+    .pseudo-padding {
+        padding: 250px 0;
+    }
+
+    .video:before {
+        height: 150px;
+    }
+
+    .video:after {
+        height: 150px;
+    }
 }
 
 
