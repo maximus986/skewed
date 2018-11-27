@@ -12,9 +12,14 @@
 @media(min-width:768px){
     .navbar-nav li {
         background: transparent;
-        border: 2px solid transparent;
+        border: none;
+        border-bottom: 2px solid transparent;
         transition: 0.5s linear;
     }   
+
+    .navbar-nav li:last-of-type {
+        border-bottom: 2px solid transparent;
+    }
 
     .navbar-nav li:hover,
     .navbar-nav li.active {
@@ -34,9 +39,9 @@
     #main-menu {
         margin: 0;
     }
-    
+
     .navbar-brand {
-        max-width: 113px;
+        max-width: 130px;
     }
 
 
@@ -54,7 +59,7 @@
     .navbar-brand {
         max-width: 250px;
     }
-    
+
     .navbar-nav li a {
         padding: 8px 15px !important;
     }
