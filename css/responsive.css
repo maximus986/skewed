@@ -29,6 +29,7 @@
 
     .navbar-nav li a.nav-link {
         transition: 0.5s linear;
+        color: #fff !important;
     }
 
     .navbar-nav li:hover a.nav-link,
@@ -42,6 +43,10 @@
 
     .navbar-brand {
         max-width: 130px;
+    }
+
+    .hello h2 {
+        font-size: 60px;
     }
 
 
@@ -63,6 +68,18 @@
     .navbar-nav li a {
         padding: 8px 15px !important;
     }
+    
+    .hello {
+        padding: 300px 0;
+    }
+    
+    .hello:after {
+        height: 150px;
+    }
+    
+    .custom-padding {
+        padding: 100px 0 !important;
+    }
 }
 
 
@@ -70,7 +87,9 @@
 
 
 @media(min-width:1200px){
-
+    .hello h2 {
+        font-size: 82px;
+    }
 
 
 
