@@ -93,13 +93,15 @@
         padding: 250px 0;
     }
 
-    .video:before {
+    .video:before, video:after {
         height: 150px;
     }
 
-    .video:after {
-        height: 150px;
+    .team figure {
+        width: 180px;
+        height: 180px;
     }
+
 }
 
 
@@ -111,7 +113,10 @@
         font-size: 82px;
     }
 
-
+    .team figure {
+        width: 220px;
+        height: 220px;
+    }
 
 
 }

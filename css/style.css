@@ -136,3 +136,55 @@ a {
     background: url(assets/bottom-right.png) no-repeat top center;
     background-size: 100% 100%;
 }
+
+.team figure {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+.team figure .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #F7CC4B;
+    display: none;
+ 
+}
+.team figure:hover .hover {
+    display: block;
+}
+
+.team .hover nav {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.team .hover nav .fa {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    
+}
+
+.team .hover nav .fa:hover {
+    background: #fff;
+    color: #F7CC4B;
+}
+
+.team .team-title {
+    font-size: 1.5rem;
+    madrgin-bottom: 0.5rem !important; 
+}
