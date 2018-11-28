@@ -258,3 +258,20 @@ a {
     background: rgba(247, 204, 75, 0.5); 
     color: #fff;
 }
+
+.achievements .fa {
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.achievements .achievements-counter {
+    font-size: 5.25rem;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 0 !important;
+}
+
+.achievements .achievements-type {
+    color: #666;
+    font-size: 1rem;
+}
