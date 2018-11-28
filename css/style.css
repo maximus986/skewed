@@ -93,6 +93,18 @@ a {
     background: #F7CC4B !important;
 }
 
+.btn-outline-warning {
+    color: #F7CC4B;
+    border-color: #F7CC4B;
+}
+
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: #F7CC4B;
+    border-color: #F7CC4B;
+
+}
+
 .about h2 {
     color: #222;
     font-family: 'PT Sans', sans-serif;
@@ -113,7 +125,8 @@ a {
     margin: 0 auto;
 }
 
-.video:before {
+.video:before,
+.parallax:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -125,7 +138,8 @@ a {
     background-size: 100% 100%;
 }
 
-.video:after {
+.video:after,
+.parallax:after {
     content: ' ';
     display: block;
     position: absolute;
@@ -153,8 +167,10 @@ a {
     height: 100%;
     background: #F7CC4B;
     display: none;
+    transition: 0.5s linear;
  
 }
+
 .team figure:hover .hover {
     display: block;
 }
@@ -176,6 +192,7 @@ a {
     border: 1px solid #fff;
     margin: 0 5px;
     text-decoration: none;
+    transition: 0.5s linear;
     
 }
 
@@ -186,5 +203,21 @@ a {
 
 .team .team-title {
     font-size: 1.5rem;
-    madrgin-bottom: 0.5rem !important; 
+    margin-bottom: 0.5rem !important; 
+}
+
+.parallax {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.parallax:before {
+    background: url(assets/top-right.png) no-repeat top center;
+    background-size: 100% 100%;
+}
+
+.parallax:after {
+    background: url(assets/bottom-left.png) no-repeat top center;
+    background-size: 100% 100%;
 }

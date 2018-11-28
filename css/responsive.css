@@ -1,6 +1,8 @@
 
 @media(min-width:576px){
-
+    .parallax-content-wrapper {
+        width: 80%;
+    }
 
 
 
@@ -49,6 +51,9 @@
         font-size: 60px;
     }
 
+    .parallax-content-wrapper {
+        width: 75%;
+    }
 
 
 
@@ -73,7 +78,9 @@
         padding: 300px 0;
     }
 
-    .hello:after {
+    .hello:after,
+    .video:before, video:after,
+    .parallax:before, video:parallax {
         height: 150px;
     }
 
@@ -93,15 +100,14 @@
         padding: 250px 0;
     }
 
-    .video:before, video:after {
-        height: 150px;
-    }
-
     .team figure {
         width: 180px;
         height: 180px;
     }
 
+    .parallax-content-wrapper {
+        width: 60%;
+    }
 }
 
 
@@ -118,5 +124,8 @@
         height: 220px;
     }
 
+    .parallax-content-wrapper {
+        width: 50%;
+    }
 
 }
