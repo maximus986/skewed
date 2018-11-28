@@ -126,7 +126,8 @@ a {
 }
 
 .video:before,
-.parallax:before {
+.parallax:before,
+.portfolio:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -139,7 +140,8 @@ a {
 }
 
 .video:after,
-.parallax:after {
+.parallax:after,
+.portfolio:after {
     content: ' ';
     display: block;
     position: absolute;
@@ -220,4 +222,39 @@ a {
 .parallax:after {
     background: url(assets/bottom-left.png) no-repeat top center;
     background-size: 100% 100%;
+}
+
+.portfolio .portfolio-item .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s linear;
+} 
+
+.portfolio .portfolio-item .hover .fa-search {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #101010;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 1.05rem;
+    transition: 0.4s linear;
+}
+
+.portfolio .portfolio-item figure:hover .hover {
+    opacity: 1;
+}
+
+.portfolio .portfolio-item .hover .fa-search:hover {
+    background: rgba(247, 204, 75, 0.5); 
+    color: #fff;
 }

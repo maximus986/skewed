@@ -80,7 +80,8 @@
 
     .hello:after,
     .video:before, video:after,
-    .parallax:before, video:parallax {
+    .parallax:before, .parallax:after,
+    .portfolio:before, .portfolio:after {
         height: 150px;
     }
 
