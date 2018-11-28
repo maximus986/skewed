@@ -109,6 +109,20 @@
     .parallax-content-wrapper {
         width: 60%;
     }
+
+    .achievements {
+        padding-bottom: 0 !important;
+    }
+
+    .testimonials {
+        padding-bottom: 130px !important;
+    }
+
+    .testimonials .blockquote {
+        width: 80%;
+    }
+
+
 }
 
 
