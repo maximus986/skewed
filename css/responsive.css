@@ -1,146 +1,127 @@
-
-@media(min-width:576px){
-    .parallax-content-wrapper {
-        width: 80%;
-    }
-
-
-
-
-
+@media(min-width:576px){ 
 }
 
 
 @media(min-width:768px){
-    .navbar-nav li {
+    .navbar-nav li{
         background: transparent;
-        border: none;
-        border-bottom: 2px solid transparent;
-        transition: 0.5s linear;
-    }   
-
-    .navbar-nav li:last-of-type {
-        border-bottom: 2px solid transparent;
+        border-bottom: none;
+        transition: 0.2s linear;
     }
 
-    .navbar-nav li:hover,
-    .navbar-nav li.active {
-        background: transparent;
-        border-bottom: 2px solid #f7cc4b;
-    }
-
-    .navbar-nav li a.nav-link {
+    .navbar-nav li a.nav-link{
+        color:#fff !important;
         transition: 0.5s linear;
-        color: #fff !important;
     }
 
     .navbar-nav li:hover a.nav-link,
-    .navbar-nav li.active a.nav-link{
-        color: #fff !important;
+    .navbar-nav li a.active{
+        color:#fff !important;
+        background: #f7cc4b;
     }
 
-    #main-menu {
-        margin: 0;
+    #main-menu{
+        margin: 0px;
     }
 
-    .navbar-brand {
+    .navbar-brand{
         max-width: 130px;
     }
 
-    .hello h2 {
-        font-size: 60px;
+    .hamburger {
+        display: none;
+    }
+        
+    .hello h2{
+        font-size: 60px !important;
     }
 
-    .parallax-content-wrapper {
-        width: 75%;
-    }
-
-
-
+    .achievements .achievements-value{
+        font-size: 50px;
+        letter-spacing: -2.5px;
+    }   
 }
 
 
 @media(min-width:992px){
-
+    
     html{
         font-size: 16px;
     }
+    
+    .navbar-brand{
+    max-width: 250px;
+}
 
-    .navbar-brand {
-        max-width: 250px;
-    }
-
-    .navbar-nav li a {
+    .navbar-nav li a{
         padding: 8px 15px !important;
     }
 
-    .hello {
+    .hello{
         padding: 300px 0;
     }
 
-    .hello:after,
-    .video:before, video:after,
-    .parallax:before, .parallax:after,
-    .portfolio:before, .portfolio:after {
+    .lead-slider-wrapper:after{
         height: 150px;
     }
 
-    .custom-padding {
+    .lead-slider-wrapper .owl-dots{
+        bottom: 200px;
+    }
+
+    .custom-padding{
         padding: 100px 0 !important;
     }
 
-    .about h2 {
+    .about h2{
+        font-size:  60px;
+    }
+
+    .section-title{
         font-size: 60px;
     }
 
-    .section-title {
-        font-size: 60px;
-    }
-
-    .pseudo-padding {
+    .pseudo{
         padding: 250px 0;
     }
 
-    .team figure {
+    .video:before, .video:after,
+    .parallax:before, .parallax:after,
+    .portfolio:before, .portfolio:after,
+    .subscribe:before
+    {
+        height: 150px;
+    }
+    
+    .team figure{
         width: 180px;
         height: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 1rem;
     }
 
-    .parallax-content-wrapper {
-        width: 60%;
+    .achievements .achievements-value{
+        font-size: 84px;
+        letter-spacing: -2.5px;
     }
 
-    .achievements {
-        padding-bottom: 0 !important;
-    }
-
-    .testimonials {
-        padding-bottom: 130px !important;
-    }
-
-    .testimonials .blockquote {
-        width: 80%;
-    }
-
-
+    .testimonials .testimonials-item p{
+        font-size: 27px;
+    }    
 }
 
-
-
-
-
 @media(min-width:1200px){
+    
     .hello h2 {
-        font-size: 82px;
+        font-size: 82px !important;
     }
-
-    .team figure {
+    
+    .team figure{
         width: 220px;
         height: 220px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 1rem;
     }
-
-    .parallax-content-wrapper {
-        width: 50%;
-    }
-
 }
